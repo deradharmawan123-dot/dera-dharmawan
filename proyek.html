@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Dera<span>.Dev</span></a>
+      <nav class="nav-links">
+        <a href="index.html" data-i18n="nav-home" class="nav-item">Home</a>
+        <a href="tentang.html" data-i18n="nav-about" class="nav-item">About</a>
+        <a href="keahlian.html" data-i18n="nav-skills" class="nav-item">Skills</a>
+        <a href="proyek.html" data-i18n="nav-projects" class="nav-item">Projects</a>
+        <a href="pengalaman.html" data-i18n="nav-experience" class="nav-item">Experience</a>
+        <a href="kontak.html" data-i18n="nav-contact" class="nav-item">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="lang-toggle" class="btn-lang">EN</button>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section-page">
+      <h2 class="section-title" data-i18n="projects-title">Featured Projects</h2>
+      
+      <div class="projects-grid">
+        <div class="project-card glass">
+          <div class="project-img-placeholder"><i class="fa-solid fa-chart-line"></i></div>
+          <div class="project-details">
+            <h3 data-i18n="project-1-title">E-Commerce Dashboard</h3>
+            <p data-i18n="project-1-desc">A responsive analytics dashboard built with modern CSS grids, charts, and dark theme support.</p>
+            <div class="project-links">
+              <a href="#" class="btn-link"><i class="fa-brands fa-github"></i> Source</a>
+              <a href="#" class="btn-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card glass">
+          <div class="project-img-placeholder"><i class="fa-solid fa-list-check"></i></div>
+          <div class="project-details">
+            <h3 data-i18n="project-2-title">Smart Task Manager</h3>
+            <p data-i18n="project-2-desc">A task manager application featuring drag-and-drop, persistent state, and sleek UI animations.</p>
+            <div class="project-links">
+              <a href="#" class="btn-link"><i class="fa-brands fa-github"></i> Source</a>
+              <a href="#" class="btn-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

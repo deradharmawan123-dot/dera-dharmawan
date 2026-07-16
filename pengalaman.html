@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experience | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Dera<span>.Dev</span></a>
+      <nav class="nav-links">
+        <a href="index.html" data-i18n="nav-home" class="nav-item">Home</a>
+        <a href="tentang.html" data-i18n="nav-about" class="nav-item">About</a>
+        <a href="keahlian.html" data-i18n="nav-skills" class="nav-item">Skills</a>
+        <a href="proyek.html" data-i18n="nav-projects" class="nav-item">Projects</a>
+        <a href="pengalaman.html" data-i18n="nav-experience" class="nav-item">Experience</a>
+        <a href="kontak.html" data-i18n="nav-contact" class="nav-item">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="lang-toggle" class="btn-lang">EN</button>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section-page">
+      <h2 class="section-title" data-i18n="exp-title">My Journey</h2>
+      
+      <div class="timeline">
+        <div class="timeline-item glass">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date" data-i18n="exp-1-date">2024 - Present</div>
+          <h3 data-i18n="exp-1-role">Senior Frontend Developer</h3>
+          <h4 data-i18n="exp-1-company">Tech Innovators Studio</h4>
+          <p data-i18n="exp-1-desc">Led a team of frontend devs to rebuild an enterprise SaaS platform, improving web performance by 40%.</p>
+        </div>
+
+        <div class="timeline-item glass">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date" data-i18n="exp-2-date">2021 - 2024</div>
+          <h3 data-i18n="exp-2-role">Web Developer</h3>
+          <h4 data-i18n="exp-2-company">Digital Agency X</h4>
+          <p data-i18n="exp-2-desc">Developed custom responsive layouts, interactive user interfaces, and optimized SEO structures.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
